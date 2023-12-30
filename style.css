@@ -1,0 +1,39 @@
+*{
+    margin: 10;
+    padding: 25;
+    box-sizing: border-box;
+    box-shadow: #4caf50;
+}
+body{
+    min-width: 100vh;
+    display: flex;
+    font-family: 'Times New Roman';
+    box-shadow: #ccc;
+    background-color: aqua;
+}
+h2{
+    text-align: center;
+}
+.container{
+    background-color: antiquewhite;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
